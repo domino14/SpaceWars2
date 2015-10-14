@@ -1,0 +1,49 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MyGame - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "c:\windows\TEMP\RSPE272.TMP" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/MyGame.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Program Files\Microsoft Visual Studio\MyProjects\MyGame\main.cpp"
+]
+Creating command line "cl.exe @c:\windows\TEMP\RSPE272.TMP" 
+Creating temporary file "c:\windows\TEMP\RSPE273.TMP" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/MyGame.pdb" /machine:I386 /out:"Release/MyGame.exe" 
+".\Release\gfx.obj"
+".\Release\main.obj"
+".\Release\SoundFile.obj"
+"..\..\Vc98\Lib\Ddraw.lib"
+"..\..\Vc98\Lib\Dinput.lib"
+"..\..\Vc98\Lib\Winmm.lib"
+"..\..\Vc98\Lib\Kernel32.lib"
+]
+Creating command line "link.exe @c:\windows\TEMP\RSPE273.TMP"
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+C:\Program Files\Microsoft Visual Studio\MyProjects\MyGame\main.cpp(507) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\MyGame\main.cpp(507) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\MyGame\main.cpp(579) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\MyProjects\MyGame\main.cpp(1047) : warning C4101: 'bull' : unreferenced local variable
+C:\Program Files\Microsoft Visual Studio\MyProjects\MyGame\main.cpp(753) : warning C4715: 'GameOverScreen' : not all control paths return a value
+C:\Program Files\Microsoft Visual Studio\MyProjects\MyGame\main.cpp(744) : warning C4700: local variable 'myenemy' used without having been initialized
+C:\Program Files\Microsoft Visual Studio\MyProjects\MyGame\main.cpp(745) : warning C4700: local variable 'mybull' used without having been initialized
+C:\Program Files\Microsoft Visual Studio\MyProjects\MyGame\main.cpp(746) : warning C4700: local variable 'mypow' used without having been initialized
+C:\Program Files\Microsoft Visual Studio\MyProjects\MyGame\main.cpp(837) : warning C4700: local variable 'mybull' used without having been initialized
+C:\Program Files\Microsoft Visual Studio\MyProjects\MyGame\main.cpp(990) : warning C4700: local variable 'mypow' used without having been initialized
+C:\Program Files\Microsoft Visual Studio\MyProjects\MyGame\main.cpp(1122) : warning C4700: local variable 'mypow' used without having been initialized
+Linking...
+
+
+
+<h3>Results</h3>
+MyGame.exe - 0 error(s), 11 warning(s)
+</pre>
+</body>
+</html>
